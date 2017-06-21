@@ -6,6 +6,7 @@ Author Name: Divesh Panwar
     color: #b35500;
   }
 
+/*Main Card Section Begins*/
   #card{
     width: 325px !important;
     margin-left: auto;
@@ -15,8 +16,7 @@ Author Name: Divesh Panwar
     box-shadow: 5px 5px 5px 5px rgba(255,188,0,0.52);
   }
 
-
-
+/*Card Title*/
   #card .title{
     padding: 10px;
     text-align: center;
@@ -24,6 +24,7 @@ Author Name: Divesh Panwar
     text-shadow: #fff 0 1px;
   }
 
+/*Image inside the card*/
   #card img{
     width: 300px !important;
     margin-left: auto;
@@ -32,6 +33,7 @@ Author Name: Divesh Panwar
     border-radius: 3px;
   }
 
+/*The information Section inside the card*/
   #information{
     padding: 5px;
     margin: 5px;
@@ -40,25 +42,30 @@ Author Name: Divesh Panwar
 
   }
 
+/*Interestig Facts section*/
   .interesting-facts{
     font-style:italic;
   }
 
+/*Fact list Section*/
   #information .fact-list{
     list-style: none;
     padding: 0;
     color: #e0700a;
   }
 
+/*Bold Labels*/
   #information .fact-list span{
     font-weight: bold;
     font-size: 0.9em;
   }
 
+/*Description section*/
   .description{
     color: #e1700a;
   }
 
+/*Common Border Properties*/
   .border{
     border: 1px solid #b35500;
   }
