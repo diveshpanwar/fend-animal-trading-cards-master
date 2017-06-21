@@ -1,0 +1,64 @@
+/*
+Author Name: Divesh Panwar
+*/
+
+  body{
+    color: #b35500;
+  }
+
+  #card{
+    width: 325px !important;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgba(236, 176, 0, 0.32);
+    box-shadow: 5px 5px 5px 5px rgba(255,188,0,0.52);
+  }
+
+
+
+  #card .title{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: #fff 0 1px;
+  }
+
+  #card img{
+    width: 300px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 3px;
+  }
+
+  #information{
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+    font-size: 0.8em;
+
+  }
+
+  .interesting-facts{
+    font-style:italic;
+  }
+
+  #information .fact-list{
+    list-style: none;
+    padding: 0;
+    color: #e0700a;
+  }
+
+  #information .fact-list span{
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+
+  .description{
+    color: #e1700a;
+  }
+
+  .border{
+    border: 1px solid #b35500;
+  }
